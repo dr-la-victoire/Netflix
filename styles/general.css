@@ -1,0 +1,74 @@
+/* Setting default styles */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main body */
+/* First part */
+
+.first-container {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/backdrop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    border-bottom: 8px solid rgb(60, 59, 59);
+}
+
+/* Alignment for the first part */
+.text-stuff {
+    padding-top: 200px;
+}
+
+/* First container text */
+.first-container h1 {
+    font-size: 48px;
+}
+
+.first-container p {
+    font-size: 25px;
+}
+
+.first-paragraph {
+    margin-top: -15px;
+}
+
+/* Styling the Email box and button */
+.email-stuff {
+    vertical-align: top;
+}
+
+.first-container input {
+    height: 55px;
+    width: 390px;
+    background-color: rgba(47, 46, 46, 0.8);
+    color: white;
+    font-size: 17px;
+    padding-left: 15px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+.first-container button {
+    height: 55px;
+    width: 200px;
+    background-color: rgb(222, 30, 30);
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 1s;   
+    border: none;
+    margin-left: 4px;
+}
+
+.first-container button:hover {
+    opacity: 0.8;
+}

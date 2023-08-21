@@ -1,0 +1,55 @@
+/* Styling the second containers */
+/* Second part */
+.second-container,
+.third-container,
+.fourth-container,
+.fifth-container {
+    height: 50vh;
+    border-bottom: 8px solid rgb(60, 59, 59);
+    width: 100%;
+    margin-left: 50px;
+}
+
+.part-1 {
+    float: left;
+    width: 50%;
+}
+
+.part-2 {
+    float: right;
+    width: 50%;
+}
+
+/* Styling text part */
+.second-container h1,
+.fourth-container h1,
+.third-container h1,
+.fifth-container h1 {
+    font-size: 48px;
+}
+
+.second-container p,
+.fourth-container p,
+.third-container p,
+.fifth-container p {
+    width: 45%;
+    margin-top: -15px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.third-container .part-2,
+.fifth-container .part-2 {
+    margin-right: 50px;
+    width: 45%;
+}
+
+/* Styling the img parts */
+
+.part-2 img {
+    margin-top: 50px;
+}
+
+.part-1 img {
+    width: 45%;
+}
